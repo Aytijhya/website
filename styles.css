@@ -208,6 +208,10 @@ ul li a:hover {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
 
   .image {
     grid-area: 1/1/2/2;
