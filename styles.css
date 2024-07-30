@@ -205,7 +205,7 @@ ul li a:hover {
 }
 
 .image img {
-  width: min(25rem, 90%);
+  width: min(20rem, 90%);
   border-radius: 100%;
 }
 
@@ -216,7 +216,7 @@ ul li a:hover {
 
   ul {
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: calc(100vh - 85px);
     left: -100%;
     top: 85px;
