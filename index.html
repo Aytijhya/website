@@ -18,24 +18,18 @@
   </head>
   <body>
     <nav>
-      <div class="nav__content">
-        
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-          <li><a href="#home" onclick="showTab('home')">Home</a></li>
-          <li><a href="#resume" onclick="showTab('resume')"">Resume</a></li>
-          <li><a href="#contact" onclick="showTab('contact')">Contact</a></li>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="https://scholar.google.com/citations?user=fKv7P-wAAAAJ&hl=en" target="_blank">
+                <img src="scholar-icon.png" alt="Google Scholar" class="nav-icon"> Google Scholar</a></li>
+            <li><a href="https://github.com/Aytijhya" target="_blank">
+                <img src="github-icon.png" alt="GitHub" class="nav-icon"> GitHub</a></li>
         </ul>
-      </div>
     </nav>
     <div id="home" class="tab">
-    <section id="home" class="section">
+    <section class="section">
       <div class="section__container">
         <div class="content">
-          <p class="subtitle">HELLO I'm</p>
+       
           <h1 class="title">
             Aytijhya Saha
           </h1>
@@ -112,6 +106,7 @@
       </div>
       <div class="papers">
         <h1>Awards and Fellowships</h1>
+        <div>
         <ol>
             <li>
             <div class="paper">
@@ -123,11 +118,7 @@
             <p><strong>Nikhilesh Bhattacharya Memorial Gold Medal</strong> (At the 58th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) for best performance in Statistics in B.Stat program (2020-2023)</p>
             </div>
             </li>
-            <li>
-            <div class="paper">
-            <p><strong>Usri Gangopadhyay Memorial Medal</strong> (At the 58th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) as the best female student in B.Stat program (2020-2023)</p>
-            </div>
-            </li>
+           
             <li>
             <div class="paper">
             <p><strong>Mukul Chaudhuri Cash Award</strong> (At the 56th and 57th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) in 1st and 2nd year of B.Stat program</p>
@@ -154,14 +145,30 @@
 
             
         </ol>
+        </div>
       </div>
         <!-- Add more papers as needed -->
       
     </section>
   </div>
-  <div id="contact" class="tab">
+  <div id="contact">
     <h1>Contact Me</h1>
-    <p>This is the contact section where you can provide your contact details.</p>
+    <div class="papers">
+    <div class="paper">
+        <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+        <div class="contact-info">
+            
+            <div class="contact-item">
+                <img src="email-icon.png" alt="Email Icon">
+                <a href="mb2308@isical.ac.in">mb2308@isical.ac.in</a>
+            </div>
+            <div class="contact-item">
+                <img src="linkedin-icon.png" alt="LinkedIn Icon">
+                <a href="www.linkedin.com/in/aytijhya" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+  </div>
+  </div>
   </div>
   <script src="scripts.js"></script>
   </body>

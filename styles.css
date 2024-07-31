@@ -21,49 +21,44 @@ a {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", serif;
+}
+.papers{
+    font-family: 'Arial', serif; /* Change 'Times New Roman' to your desired font */
 }
 
+nav ul li {
+    margin-left: 20px;
+}
 nav {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  z-index: 99;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end; /* Aligns the nav content to the right */
+    padding: 10px 20px;
+    position: relative;
 }
 
-.nav__content {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 1.5rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+nav ul li a {
+    display: flex;
+    align-items: center;
+    color: rgb(117, 182, 225);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
-nav .logo a {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  transition: 0.3s;
-}
-nav .logo a:hover {
-  color: var(--primary-color-dark);
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
 }
 
-nav .checkbox {
-  display: none;
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
 }
 
-nav input {
-  display: none;
-}
-nav .checkbox i {
-  font-size: 2rem;
-  color: var(--primary-color);
-  cursor: pointer;
-}
 
 ul {
   display: flex;
@@ -104,6 +99,10 @@ ul li a:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
   align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 30px; /* Adjust the value as needed to increase space below headings */
 }
 
 .papers {
@@ -224,46 +223,79 @@ ul li a:hover {
     display: block;
 }
 
-@media (width < 750px) {
-  nav .checkbox {
-    display: block;
-  }
-
-  ul {
-    position: absolute;
-    width: 90%;
-    height: calc(100vh - 85px);
-    left: -100%;
-    top: 85px;
-    background-color: var(--extra-light);
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-  }
-
-  nav #check:checked ~ ul {
-    left: 0;
-  }
-
-  ul li a {
-    font-size: 1.25rem;
-  }
-
-  .section__container {
-    padding: 10rem 1rem 5rem 1rem;
-    text-align: center;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  h1, h2 {
-    text-align: center;
-    color: #333;
-  }
-
-  .image {
-    grid-area: 1/1/2/2;
-  }
-
-  .action__btns {
-    margin: auto;
-  }
+#contact-me {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
+#contact-me h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 100px;
+}
+
+#contact-me p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 100px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically if needed */
+    gap: 20px; /* Adds space between the items */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    font-size: 16px;
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #005582;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 20px;
+    }
+
+    nav .menu-icon {
+        display: block;
+    }
+}
+
+/* Show menu when toggled */
+.nav-active {
+    display: flex;
+}
+
