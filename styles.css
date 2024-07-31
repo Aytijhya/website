@@ -281,7 +281,12 @@ nav h1 {
 .contact-item a:hover {
     color: #005582;
 }
-footer { background-color: #f8f9fa; padding: 10px 0; }
+footer { 
+  font-size: 15px;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  text-align: center;
+ }
 
 @media screen and (max-width: 768px) {
     nav ul {
