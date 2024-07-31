@@ -25,13 +25,14 @@
         </label>
         <input type="checkbox" name="check" id="check" />
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home" onclick="showTab('home')">Home</a></li>
+          <li><a href="#resume" onclick="showTab('resume')"">Resume</a></li>
+          <li><a href="#contact" onclick="showTab('contact')">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <section class="section">
+    <div id="home" class="tab">
+    <section id="home" class="section">
       <div class="section__container">
         <div class="content">
           <p class="subtitle">HELLO I'm</p>
@@ -114,44 +115,40 @@
         <ol>
             <li>
             <div class="paper">
-            <p><strong>Mrs. M.R. Iyer Memorial Gold Medal</strong> (At the 58th Convocation of Indian Statistical Institute, Kolkata)</p>
-            <p>for outstanding performance in B.Stat program (2020-2023)</p>
+            <p><strong>Mrs. M.R. Iyer Memorial Gold Medal</strong> (At the 58th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) for outstanding performance in B.Stat program (2020-2023)</p>
             </div>
             </li>
             <li>
             <div class="paper">
-            <p><strong>Nikhilesh Bhattacharya Memorial Gold Medal</strong> (At the 58th Convocation of Indian Statistical Institute, Kolkata)</p>
-            <p>for best performance in Statistics in B.Stat program (2020-2023)</p>
+            <p><strong>Nikhilesh Bhattacharya Memorial Gold Medal</strong> (At the 58th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) for best performance in Statistics in B.Stat program (2020-2023)</p>
             </div>
             </li>
             <li>
             <div class="paper">
-            <p><strong>Usri Gangopadhyay Memorial Medal</strong> (At the 58th Convocation of Indian Statistical Institute, Kolkata)</p>
-            <p>as the best female student in B.Stat program (2020-2023)</p>
+            <p><strong>Usri Gangopadhyay Memorial Medal</strong> (At the 58th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) as the best female student in B.Stat program (2020-2023)</p>
             </div>
             </li>
             <li>
             <div class="paper">
-            <p><strong>Mukul Chaudhuri Cash Award</strong> (At the 56th and 57th Convocation of Indian Statistical Institute, Kolkata)</p>
-            <p>in 1st and 2nd year of B.Stat program</p>
+            <p><strong>Mukul Chaudhuri Cash Award</strong> (At the 56th and 57th Convocation of <a href="https://www.isical.ac.in/" target="_blank">ISI Kolkata</a>) in 1st and 2nd year of B.Stat program</p>
             </div>
             </li>
 
             <li>
             <div class="paper">
-            <p><strong>Summer Research Fellowship</strong> by Indian National Science Academy (INSA): May 2022–July 2022</p>
+            <p><strong>Summer Research Fellowship</strong> by <a href="https://insaindia.res.in/" target="_blank">Indian National Science Academy (INSA)</a>: May 2022–July 2022</p>
             </div>
             </li>
 
             <li>
             <div class="paper">
-            <p><strong>Kishore Vaigyanik Protsahan Yojana (KVPY) fellowship</strong>: 2020-Present</p>
+            <p><strong>Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship</strong>: 2020-Present</p>
             </div>
             </li>
 
             <li>
             <div class="paper">
-            <p><strong>Indian National Mathematical Olympiad (INMO) Merit Award</strong> by the Homi Bhabha Centre for Science Education (HBCSE), Tata Institute of Fundamental Research (TIFR) - 2019</p>
+            <p><strong>Indian National Mathematical Olympiad (INMO) Merit Award</strong> by the <a href="https://www.hbcse.tifr.res.in/" target="_blank">Homi Bhabha Centre for Science Education (HBCSE)</a>, Tata Institute of Fundamental Research (TIFR) - 2019</p>
             </div>
             </li>
 
@@ -161,5 +158,11 @@
         <!-- Add more papers as needed -->
       
     </section>
+  </div>
+  <div id="contact" class="tab">
+    <h1>Contact Me</h1>
+    <p>This is the contact section where you can provide your contact details.</p>
+  </div>
+  <script src="scripts.js"></script>
   </body>
 </html>

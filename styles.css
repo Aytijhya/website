@@ -91,6 +91,9 @@ ul li a:hover {
 .section {
   background-color: var(--extra-light);
 }
+.section.active {
+    display: block; /* Show only the active section */
+  }
 
 .section__container {
   min-height: 100vh;
@@ -207,6 +210,18 @@ ul li a:hover {
 .image img {
   width: min(20rem, 90%);
   border-radius: 100%;
+}
+
+.tab {
+    display: none;
+}
+
+.tab h1 {
+    margin-top: 0;
+}
+
+#home {
+    display: block;
 }
 
 @media (width < 750px) {
