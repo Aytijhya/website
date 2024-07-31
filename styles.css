@@ -101,18 +101,7 @@ ul li a:hover {
   align-items: center;
 }
 
-/* CV Link Styling */
-.cv-link {
-    display: block;
-    margin-bottom: 20px; /* Space below the CV link */
-    font-size: 18px; /* Adjust font size as needed */
-    color: #007bff; /* Link color */
-    text-decoration: none; /* Remove underline */
-}
 
-.cv-link:hover {
-    text-decoration: underline; /* Add underline on hover */
-}
 
 
 h1, h2 {
