@@ -48,6 +48,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+.nav-links {
+  transform: scale(0.99);
+  flex: 1;
+}
+
 .nav-icon {
     width: 20px;
     height: 20px;
@@ -170,7 +175,8 @@ nav h1 {
 }
 
 .description {
-  line-height: 1.5rem;
+  font-size: 18px;
+  /* line-height: 1.5rem; */
   color: var(--text-light);
   margin-bottom: 2rem;
 }
@@ -289,6 +295,10 @@ footer {
  }
 
 @media screen and (max-width: 768px) {
+
+    *{
+        margin: 2px;
+    }
     nav ul {
         flex-direction: column;
         width: 100%;
@@ -306,9 +316,19 @@ footer {
     nav .menu-icon {
         display: block;
     }
+
+    .section__container {
+         display: flex;
+         flex-direction: column-reverse;
+    }
+
+    .description{
+      font-size: 15px;
+    }
 }
 
 /* Show menu when toggled */
 .nav-active {
     display: flex;
 }
+
