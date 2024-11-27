@@ -175,10 +175,10 @@ nav h1 {
 }
 
 .description {
-  font-size: 18px;
+  font-size: 17px;
   /* line-height: 1.5rem; */
   color: var(--text-light);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .action__btns {
