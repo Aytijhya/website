@@ -39,10 +39,9 @@
           <p class="description">My research interests span a broad spectrum within algorithms, theory, and applications of Statistics and Machine Learning. 
             I have worked on areas including robust statistics, online/sequential learning, game-theoretic statistics,
             high-dimensional inference, change-point detection and localization, group-feature selection,
-        conformal prediction,
         classification algorithms, 
         multi-armed bandits,
-        neural networks. My research work appears (or under review) in the top proceedings in ML/AI (AISTATS, ECML-PKDD) and the top journals in ML and statistics and related areas (Neurocomputing, JASA, IEEE). 
+        neural networks, etc. My research works are published (or under review) in the top proceedings in ML/AI (AISTATS, ECML-PKDD) and the top journals in ML, statistics and related areas (Neurocomputing, JASA, IEEE). 
         Details of my publications and preprints can be found in my <a href="index.html">homepage</a> and <a href="https://scholar.google.com/citations?user=fKv7P-wAAAAJ&hl=en" target="_blank">
           google scholar</a> profile.
       </p>
@@ -58,23 +57,33 @@
             <h3><strong>Ongoing Master's Dissertation</strong></h3>
             <p><strong>Advisors:</strong> <a href="https://www.stat.cmu.edu/~aramdas/" target="_blank">Aaditya Ramdas</a> and <a href="https://soumendu041.gitlab.io/" target="_blank">Soumendu Sundar Mukherjee</a> </p>
             <p><strong>Title:</strong> Online/Sequential Changepoint Localization</p>
-            <p><strong>Brief description:</strong> We focus on post-detection inference on change points, particularly on developing a hypothesis test for false alarms and a
-              confidence interval of the change point in the online or sequential setting, where we have access to data only
-              up to a data-dependent stopping time, where an online/sequential change-detection algorithm stops.</p>
+            <p><strong>Brief description:</strong> The aim is to address a fundamental but largely unexplored challenge in sequential changepoint analysis: conducting inference following a detected change.
+               In contrast to the well-studied offline changepoint localization problem, where the full data set is available up to a fixed point, we study the problem of localizing the changepoint using only the data observed up to a random, data-dependent stopping time, at which a sequential detection algorithm declares a change.
+               We particularly focus on developing a hypothesis test to assess whether a detection is genuine or a false alarm and 
+              confidence interval of the changepoint in the online or sequential setting.</p>
             </div>
             </li>
-        
+            <li>
+              <div class="paper">
+              <h3><strong> <a href="https://arxiv.org/abs/2408.14015" target="_blank">Robust likelihood ratio tests for composite nulls and alternatives</a></strong> [Under Review, IEEE Trans. on Information Theory]</h3>
+              <p><strong>Brief description:</strong> We first modify Huber's robust SPRT for simple nulls and alternatives to instead employ a test supermartingale. 
+                 The martingale tools allow us to generalize the usual Huber contamination model to show that our sequential test retains type-I error validity even under sequentially adaptive contaminations under the null. 
+                  With this building block in place, we extend our approach to handle both composite nulls and composite alternative hypotheses, a task which has not been undertaken earlier, and utilizes te idea of reverse information projection. 
+                  In all cases, we analyze the growth rate under the alternative, which asymptotically converges the optimal non-robust growth rate (a certain KL divergence between null and alternative).</p>
+            </div>
+              </li>
             <li>
             <div class="paper">
             <h3><strong>Saha and Ramdas' discussion of "Poisson-focus" by Ward, Dilillo, Eckley and Fearnhead</strong> [JASA, 2025]</h3>
-            <p><strong>Brief description:</strong> In this discussion article, we demonstrate that a specific variant of the ``e-detector'' offers a promising 
-              alternative to the ``Poisson-FOCuS'' algorithm for online gamma-ray burst detection.</p>
+            <p><strong>Brief description:</strong> In this discussion article, we demonstrate that a specific variant of the "e-detector" offers a promising 
+              alternative to the "Poisson-FOCuS" algorithm for online gamma-ray burst detection, providing a notable reduction
+            in computation time while maintaining comparable detection efficiency.</p>
             </div>
             </li>
 
             <li>
               <div class="paper">
-              <h3><strong>Testing exchangeability by pairwise betting</strong> [AISTATS, 2024. <font color="red">ORAL</font>]</h3>
+              <h3><strong> <a href="https://proceedings.mlr.press/v238/saha24b.html" target="_blank">Testing exchangeability by pairwise betting </a></strong> [AISTATS, 2024. <font color="red">ORAL</font>]</h3>
               <p><strong>Brief description:</strong> We address the problem of testing exchangeability of a sequence of random
                 variables under the recently popular framework
                 of testing by betting. We design a new (yet simple) game in which
@@ -91,7 +100,7 @@
 
             <li>
             <div class="paper">
-            <h3><strong>Group-Feature (Sensor) Selection With Controlled Redundancy Using Neural Networks</strong> [Neurocomputing, 2024]</h3>
+            <h3><strong><a href="https://doi.org/10.1016/j.neucom.2024.128596" target="_blank">Group-Feature (Sensor) Selection With Controlled Redundancy Using Neural Networks</a></strong> [Neurocomputing, 2024]</h3>
             <p><strong>Brief description:</strong> In this work, we present a novel embedded feature selection method based on a Multi-layer Perceptron (MLP) network and generalize it for group-feature or sensor selection problems, which can control the level of redundancy among the selected features or groups and it is computationally more efficient than the existing ones in the literature.
                Additionally, we have generalized the group lasso penalty for feature selection to encompass a mechanism for selecting valuable groups of features while simultaneously maintaining control over redundancy. We establish the monotonicity and convergence of the proposed algorithm, with a smoothed version of the penalty terms, under suitable assumptions</p>
             </div>
@@ -99,21 +108,13 @@
            
               <li>
               <div class="paper">
-              <h3><strong>Robust Classification of High-Dimensional Data Using Data-Adaptive Energy Distance</strong> [ECML PKDD, 2023]</h3>
+              <h3><strong> <a href="https://link.springer.com/chapter/10.1007/978-3-031-43424-2_6" target="_blank">Robust Classification of High-Dimensional Data Using Data-Adaptive Energy Distance</a></strong> [ECML PKDD, 2023]</h3>
               <p><strong>Brief description:</strong> In this work, we developed robust, computationally efficient, and tuning-free classifiers
                 tailored for high-dimensional low sample size (HDLSS) data, using the concepts of angular distance and generalized
                 energy distance. It is shown that they yield perfect classification in the HDLSS asymptotic regime (where sample size is fixed but the dimension approaches infinity), under some fairly general conditions.</p>
              </div>
               </li>
-              <li>
-                <div class="paper">
-                <h3><strong>Robust likelihood ratio tests for composite nulls and alternatives</strong> [Under Review, IEEE Trans. on Information Theory]</h3>
-                <p><strong>Brief description:</strong> We first modify Huber's robust SPRT for simple nulls and alternatives to instead employ a test supermartingale. 
-                   The martingale tools allow us to generalize the usual Huber contamination model to show that our sequential test retains type-I error validity even under sequentially adaptive contaminations under the null. 
-                    With this building block in place, we extend our approach to handle both composite nulls and composite alternative hypotheses, a task which has not been undertaken earlier, and utilizes te idea of reverse information projection. 
-                    In all cases, we analyze the growth rate under the alternative, which asymptotically converges the optimal non-robust growth rate (a certain KL divergence between null and alternative).</p>
-              </div>
-                </li>
+              
         </ul>
       </div>
     
