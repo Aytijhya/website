@@ -22,128 +22,79 @@
         <ul class="nav-links" id="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="research.html" >
-                Research</a></li>
-          <!--<li><a href="CV_Aytijhya.pdf" target="_blank" >
-              <img src="cv-icon.png" alt="Curriculum Vitae" class="nav-icon">Curriculum Vitae</a></li>-->
-          <li><a href="https://scholar.google.com/citations?user=fKv7P-wAAAAJ&hl=en" target="_blank">
-              <img src="scholar-icon.png" alt="Google Scholar" class="nav-icon">Google Scholar</a></li>
-          <li><a href="https://github.com/Aytijhya" target="_blank">
-              <img src="github-icon.png" alt="GitHub" class="nav-icon">GitHub</a></li>
-                        
+                Research/Talks</a></li>
+          <li><a href="misc.html" >Miscellaneous</a></li>
+          <li><a href="CV_Aytijhya.pdf" target="_blank" >CV</a></li>
+                             
         </ul>
     </nav>
-    <div id="home" class="tab">
+
+  <div id="home" class="tab">
     <section class="section">
-      <div class="section__description">
-        <div class="content">
-          <p class="description">My research interests span a broad spectrum within theory, methodology, and applications of Statistics and Machine Learning. 
-            I have worked on areas including robust statistics, online/sequential learning, game-theoretic statistics,
-            high-dimensional inference, change-point detection and localization, group-feature selection,
-        classification algorithms, 
-        multi-armed bandits,
-        neural networks, etc. My research works are published (or under review) in the top proceedings in ML/AI (AISTATS, ECML-PKDD) and the top journals in ML, statistics and related areas (Neurocomputing, JASA, IEEE). 
-        Details of my publications and preprints can be found in my <a href="index.html">homepage</a> and <a href="https://scholar.google.com/citations?user=fKv7P-wAAAAJ&hl=en" target="_blank">
-          google scholar</a> profile.
-      </p>
-      </div>
-      </div>
+    <div class="section__description">
+    <div class="content">
+    <section class="pronunciation">
+      <h2>🔊 How to Pronounce My Name</h2>
+    My first name, “Aytijhya,” is a Bengali word — <strong>ঐতিহ্য</strong> — which means “heritage” or “tradition.”
+     It’s spelled “Aytijhya” in English, but pronounced more like <strong>“Oi-teej-jho.”</strong>   </section>
+
     
 
-      
-      <div class="papers">
-        <ul>
-            <li>
-            <div class="paper">
-            <h3><strong>Ongoing Master's Dissertation</strong></h3>
-            <p><strong>Advisors:</strong> <a href="https://www.stat.cmu.edu/~aramdas/" target="_blank">Aaditya Ramdas</a> and <a href="https://soumendu041.gitlab.io/" target="_blank">Soumendu Sundar Mukherjee</a> </p>
-            <p><strong>Title:</strong> Online/Sequential Changepoint Localization</p>
-            <p><strong>Brief description:</strong> The aim is to address a fundamental but largely unexplored challenge in sequential changepoint analysis: conducting inference following a detected change.
-               In contrast to the well-studied offline changepoint localization problem, where the full data set is available up to a fixed point, we study the problem of localizing the changepoint using only the data observed up to a random, data-dependent stopping time, at which a sequential detection algorithm declares a change.
-               We particularly focus on developing a hypothesis test to assess whether a detection is genuine or a false alarm and 
-              confidence interval of the changepoint in the online or sequential setting.</p>
-            </div>
-            </li>
-            <li>
-              <div class="paper">
-              <h3><strong> <a href="https://arxiv.org/abs/2408.14015" target="_blank">Robust likelihood ratio tests for composite nulls and alternatives</a></strong> [Under Review, IEEE Trans. on Information Theory]</h3>
-              <p><strong>Brief description:</strong> We first modify <a href="https://doi.org/10.1214/aoms/1177699803">Huber's robust SPRT</a> for simple nulls and alternatives to instead employ a test supermartingale. 
-                 The martingale tools allow us to generalize the usual Huber contamination model to show that our sequential test retains type-I error validity even under sequentially adaptive contaminations under the null. 
-                  With this building block in place, we extend our approach to handle both composite nulls and composite alternative hypotheses, a task which has not been undertaken earlier, and utilizes te idea of <a href="https://arxiv.org/abs/2402.18810">reverse information projection</a>. 
-                  In all cases, we analyze the growth rate under the alternative, which asymptotically converges the optimal non-robust growth rate.</p>
-            </div>
-              </li>
-            <li>
-            <div class="paper">
-            <h3><strong>Saha and Ramdas' discussion of "Poisson-focus" by Ward, Dilillo, Eckley and Fearnhead</strong> [JASA, 2025]</h3>
-            <p><strong>Brief description:</strong> In this discussion article, we demonstrate that a specific variant of the <a href="https://doi.org/10.51387/23-NEJSDS51">e-detector</a> offers a promising 
-              alternative to the <a href="https://doi.org/10.1080/01621459.2023.2235059">Poisson-FOCuS</a> algorithm for online gamma-ray burst detection, providing a notable reduction
-            in computation time while maintaining comparable detection efficiency.</p>
-            </div>
-            </li>
-
-            <li>
-              <div class="paper">
-              <h3><strong> <a href="https://proceedings.mlr.press/v238/saha24b.html" target="_blank">Testing exchangeability by pairwise betting </a></strong> [AISTATS, 2024. <font color="red">ORAL</font>]</h3>
-              <p><strong>Brief description:</strong> We address the problem of testing exchangeability of a sequence of random
-                variables under the recently popular framework
-                of testing by betting. We design a new (yet simple) game in which
-                we observe the data sequence in pairs. Even
-                though betting on individual observations is
-                futile, we show that betting on pairs of observations is not. We prove that
-                our game leads to a nontrivial test martingale,
-                which is interesting because it has been obtained by shrinking the filtration very slightly.
-                We show that our test controls type-1 error despite continuous monitoring, and is consistent
-                for both binary and continuous observations,
-                under a broad class of alternatives.</p>
-              </div>
-              </li>
-
-            <li>
-            <div class="paper">
-            <h3><strong><a href="https://doi.org/10.1016/j.neucom.2024.128596" target="_blank">Group-Feature (Sensor) Selection With Controlled Redundancy Using Neural Networks</a></strong> [Neurocomputing, 2024]</h3>
-            <p><strong>Brief description:</strong> In this work, we present a novel embedded feature selection method based on a Multi-layer Perceptron (MLP) network and generalize it for group-feature or sensor selection problems, which can control the level of redundancy among the selected features or groups and it is computationally more efficient than the existing ones in the literature.
-               Additionally, we have generalized the group lasso penalty for feature selection to encompass a mechanism for selecting valuable groups of features while simultaneously maintaining control over redundancy. We establish the monotonicity and convergence of the proposed algorithm, with a smoothed version of the penalty terms, under suitable assumptions</p>
-            </div>
-            </li>
-           
-              <li>
-              <div class="paper">
-              <h3><strong> <a href="https://link.springer.com/chapter/10.1007/978-3-031-43424-2_6" target="_blank">Robust Classification of High-Dimensional Data Using Data-Adaptive Energy Distance</a></strong> [ECML PKDD, 2023]</h3>
-              <p><strong>Brief description:</strong> In this work, we developed robust, computationally efficient, and tuning-free classifiers
-                tailored for high-dimensional low sample size (HDLSS) data, using the concepts of <a href="https://arxiv.org/abs/1803.00715">angular distance</a> and <a href="https://doi.org/10.1214/13-AOS1140">generalized
-                energy distance</a>. It is shown that they yield perfect classification in the HDLSS asymptotic regime (where sample size is fixed but the dimension approaches infinity), under some fairly general conditions.</p>
-             </div>
-              </li>
-              
-        </ul>
-      </div>
-    
-
-      
+    <section class="pronunciation">
+      <h2>🎨 Hobbies & Interests</h2>
+      Outside of research, I love immersing myself in activities:
+    <ul>
+    <li>🧶 <strong>Swimming</strong> — I love being in the water and try to swim regularly for both relaxation and fitness.</li>
+     <li>🎵 <strong>Music</strong> — I have a deep appreciation for melodious music - whether it’s classical or contemporary.</li>
+    <li>🎲 <strong>Board Games</strong> — I enjoy strategic games like Chess, Monopoly, and Catan, especially in good company.</li>
+    <li>📚 <strong>Reading</strong> — I particularly enjoy fiction and science writing.</li>
+   
+     </ul>
     </section>
+
+    
+<section class="pronunciation">
+  <h2>📸 Gallery</h2>
+
+<div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="images/imotc.png" alt="Mountain View" />
+    <div class="caption">IMOTC 2019</div>
   </div>
-  <div id="contact">
-    <h1>Contact</h1>
-    <div class="papers">
-    <div class="paper">
-        <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
-        <div class="contact-info">
-            
-            <div class="contact-item">
-                <img src="email-icon.png" alt="Email Icon">
-                mb2308 [at] isical [dot] ac [fullstop] in
-            </div>
-            <div class="contact-item">
-                <img src="linkedin-icon.png" alt="LinkedIn Icon">
-                <a href="https://www.linkedin.com/in/aytijhya" target="_blank">LinkedIn</a>
-            </div>
-        </div>
+  <div class="gallery-item">
+    <img src="images/bdsi.png" alt="Lake Reflection" />
+    <div class="caption">Big Data Summer Institute, University of Michigan, 2023</div>
   </div>
   </div>
+  <div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="images/aadi-grp.png" alt="City Skyline" />
+    <div class="caption">With Aaditya Ramdas and his group, Pittsburgh, Summer 2024</div>
   </div>
-  <script src="scripts.js"></script>
-  <footer>
-    <p><center>&copy; 2024 Aytijhya Saha</center></p>
-  </footer>
-  </body>
+  <div class="gallery-item">
+    <img src="images/hastie.png" alt="Forest Trail" />
+    <div class="caption">Receiving Gold medals from Trevor Hastie at ISI Convocation, 2023</div>
+  </div>
+  </div>
+   <div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="images/mstatbatch.png" alt="Desert Dunes" />
+    <div class="caption">Thanksgiving celebration, M.Stat' 25</div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/tulip.png" alt="Ocean Waves" />
+    <div class="caption">Tulip Gargen, April 2025</div>
+  </div>
+  </div>
+</div>
+
+
+
+    </section>
+    </div>
+    </div>
+
+  </div>
+  
+</body>
 </html>

@@ -400,3 +400,111 @@ footer {
     border-radius: 50%;
     border: 2px solid #000000;
 }
+
+
+    .pronunciation {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .pronunciation span {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .hobbies ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .hobbies li {
+      background: #eaf6ff;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+.gallery-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #fef9f9, #fff7fc);
+}
+
+.gallery-intro {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px; right: 30px;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+   
