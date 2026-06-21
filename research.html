@@ -31,91 +31,22 @@
     <div id="home" class="tab">
     <section class="section">
       <div class="section__description">
-        <div class="content">
+        <div class="paper">
+          <h2>Research Interests and Activities</h2>
           <p class="description">My research interests span a broad spectrum within theory, methodology, and applications of Statistics and Machine Learning. 
-            I have worked on areas including robust statistics, online/sequential learning, game-theoretic statistics,
-            high-dimensional inference, change-point detection and localization, group-feature selection,
-        classification algorithms, 
-        nonparametric inference,
-        neural networks, etc. Currently, I am also exploring causal and conformal inference. Details of my publications and preprints can also be found in my <a href="index.html">homepage</a> and <a href="https://scholar.google.com/citations?user=fKv7P-wAAAAJ&hl=en" target="_blank">
+             However, the most of my current research focus is centered around <strong>causal inference, sequential/anytime-valid inference, and distribution-free inference.</strong>  
+             Details of my publications and preprints can also be found in my <a href="index.html">homepage</a> and <a href="https://scholar.google.com/citations?user=fKv7P-wAAAAJ&hl=en" target="_blank">
           google scholar</a> profile.
+      </p>
+      <p class="description">Beyond research, I enjoy engaging with the broader scientific community through conferences, collaborations etc. I enjoy traveling to workshops and conferences around the world, where I present my work, exchange ideas with researchers from diverse backgrounds, and gain new perspectives that often inspire future research directions. 
+        I also like organizing academic events. I co-organized <a href="https://lidsconf.mit.edu/2026/">Sanjoy K. Mitter LIDS Student Conference</a> in 2026.
       </p>
         </div>
       </div>
     
 
       
-      <div class="papers">
-        <ul>
-          
-            <li>
-            <div class="paper">
-            <h3><strong> <a href="https://arxiv.org/abs/2502.06096" target="_blank">Post-detection inference for sequential changepoint localization
-            </a></strong>[JRSS-B, 2026]</h3>
-            <p><strong>Brief description:</strong> We address a fundamental but largely unexplored challenge addresses a fundamental yet underexplored question in sequential changepoint analysis: how can we perform valid inference on the changepoint, once a (potentially blackbox or heuristic) sequential detection algorithm has declared that a change has occurred? 
-              Specifically, we construct confidence sets for the (unknown) changepoint using only the data available up to a data-dependent stopping time, at which an arbitrary sequential detection algorithm stops and signals a change.
-               To the best of our knowledge, our work provides the first general methodology for post-detection changepoint localization that is both assumption-lean and agnostic to the change detection method.</p>
-            </div>
-            </li>
-            <li>
-              <div class="paper">
-              <h3><strong> <a href="https://arxiv.org/abs/2408.14015" target="_blank">Huber-robust likelihood ratio tests for composite nulls and alternatives</a></strong> [IEEE Trans. on Info. Theory, 2025]</h3>
-              <p><strong>Brief description:</strong> We prove a general result that least favourable distribution (LFD) pairs, when they exist,
-yield optimal e-values for testing arbitrary composite nulls against composite alternatives.
-Then we show the following composition property of least favourable distributions: if an LFD pair exists for some composite null and alternative, then
-the LFDs of Huber’s ϵ-contamination or total variation (TV) neighborhoods around that
-specific pair form the LFD pair for the corresponding robustified composite
-hypotheses. Furthermore, where LFDs do not exist, we develop new e-value based robust composite
-tests for general settings, that are inherently sequential, but
-they are new even for fixed sample sizes, giving type-I error control without any regularity
-conditions. 
-            </div>
-              </li>
-            <li>
-            <div class="paper">
-            <h3><strong><a href="https://doi.org/10.1080/01621459.2024.2402957" target="_blank">Saha and Ramdas' discussion of "Poisson-focus" by Ward, Dilillo, Eckley and Fearnhead</a></strong> [JASA, 2025]</h3>
-            <p><strong>Brief description:</strong> In this discussion article, we demonstrate that a specific variant of the <a href="https://doi.org/10.51387/23-NEJSDS51">e-detector</a> offers a promising 
-              alternative to the <a href="https://doi.org/10.1080/01621459.2023.2235059">Poisson-FOCuS</a> algorithm for online gamma-ray burst detection, providing a notable reduction
-            in computation time while maintaining comparable detection efficiency.</p>
-            </div>
-            </li>
-
-            <li>
-              <div class="paper">
-              <h3><strong> <a href="https://proceedings.mlr.press/v238/saha24b.html" target="_blank">Testing exchangeability by pairwise betting </a></strong> [AISTATS, 2024. <font color="red">ORAL</font>]</h3>
-              <p><strong>Brief description:</strong> We address the problem of testing exchangeability of a sequence of random
-                variables under the recently popular framework
-                of testing by betting. We design a new (yet simple) game in which
-                we observe the data sequence in pairs. Even
-                though betting on individual observations is
-                futile, we show that betting on pairs of observations is not. We prove that
-                our game leads to a nontrivial test martingale,
-                which is interesting because it has been obtained by shrinking the filtration very slightly.
-                We show that our test controls type-1 error despite continuous monitoring, and is consistent
-                for both binary and continuous observations,
-                under a broad class of alternatives.</p>
-              </div>
-              </li>
-
-            <li>
-            <div class="paper">
-            <h3><strong><a href="https://doi.org/10.1016/j.neucom.2024.128596" target="_blank">Group-Feature (Sensor) Selection With Controlled Redundancy Using Neural Networks</a></strong> [Neurocomputing, 2024]</h3>
-            <p><strong>Brief description:</strong> In this work, we present a novel embedded feature selection method based on a Multi-layer Perceptron (MLP) network and generalize it for group-feature or sensor selection problems, which can control the level of redundancy among the selected features or groups and it is computationally more efficient than the existing ones in the literature.
-               Additionally, we have generalized the group lasso penalty for feature selection to encompass a mechanism for selecting valuable groups of features while simultaneously maintaining control over redundancy. We establish the monotonicity and convergence of the proposed algorithm, with a smoothed version of the penalty terms, under suitable assumptions</p>
-            </div>
-            </li>
-           
-              <li>
-              <div class="paper">
-              <h3><strong> <a href="https://link.springer.com/chapter/10.1007/978-3-031-43424-2_6" target="_blank">Robust Classification of High-Dimensional Data Using Data-Adaptive Energy Distance</a></strong> [ECML PKDD, 2023]</h3>
-              <p><strong>Brief description:</strong> In this work, we developed robust, computationally efficient, and tuning-free classifiers
-                tailored for high-dimensional low sample size (HDLSS) data, using the concepts of <a href="https://arxiv.org/abs/1803.00715">angular distance</a> and <a href="https://doi.org/10.1214/13-AOS1140">generalized
-                energy distance</a>. It is shown that they yield perfect classification in the HDLSS asymptotic regime (where sample size is fixed but the dimension approaches infinity), under some fairly general conditions.</p>
-             </div>
-              </li>
-              
-        </ul>
-      </div>
+      
 
      <div class="papers">
         <h1>Talks</h1>
@@ -163,7 +94,7 @@ Novel Classification Approach <a href="https://drive.google.com/file/d/1YkPT5Zy8
   </div>-->
   <script src="scripts.js"></script>
   <footer>
-    <p><center>&copy; 2024 Aytijhya Saha</center></p>
+    <p><center>&copy; 2026 Aytijhya Saha</center></p>
   </footer>
   </body>
 </html>
